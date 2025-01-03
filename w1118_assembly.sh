@@ -12,7 +12,7 @@ cutadapt -m 6000 -o ../w1118.filter.fastq demultiplex.bc1017--bc1017.hifi_reads_
 #!/bin/bash
 
 #SBATCH --job-name=hifiasm       ## Name of the job.
-#SBATCH -A rongg7      ## CHANGE account to charge 
+#SBATCH -A grylee_lab      ## CHANGE account to charge 
 #SBATCH -p free               ## partition name
 #SBATCH --nodes=1             ## (-N) number of nodes to use
 #SBATCH --ntasks=1            ## (-n) number of tasks to launch
