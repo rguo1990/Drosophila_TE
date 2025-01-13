@@ -1,1 +1,20 @@
+## the way I rename the 7 chromosomes in the reference genome
 
+## the original
+$grep ">" GCF_000001215.4_refine.fasta 
+>NT_033779.5 Drosophila melanogaster chromosome 2L
+>NT_033778.4 Drosophila melanogaster chromosome 2R
+>NT_037436.4 Drosophila melanogaster chromosome 3L
+>NT_033777.3 Drosophila melanogaster chromosome 3R
+>NC_004353.4 Drosophila melanogaster chromosome 4
+>NC_004354.4 Drosophila melanogaster chromosome X
+>NC_024512.1 Drosophila melanogaster chromosome Y
+
+$grep ">" Drosophila_ref.fasta 
+>DroRef.scaffold.1
+>DroRef.scaffold.2
+>DroRef.scaffold.3
+>DroRef.scaffold.4
+>DroRef.scaffold.5
+>DroRef.scaffold.6
+>DroRef.scaffold.7
