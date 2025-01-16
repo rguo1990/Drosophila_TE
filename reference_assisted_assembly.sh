@@ -76,3 +76,7 @@ compleasm run -a $ASM -o w1118_compleasm -t 16 -l diptera
 ## I:0.00%, 0
 ## M:0.03%, 1
 ## N:3285
+
+## we checked the missing BUSCO: 34597at7147. Kelch repeat type 1.
+## in Drosophila melanogaster's reference genome: it's kelch like family member 10, and located on the scaffold unmapped scaffold 8, forward strand.
+
