@@ -1,5 +1,6 @@
 ## Keto
-## the script is to merge two fastq files
+## the script is to generate the bash script to merge two fastq files
+## using Kayla's spreadsheet as an input
 
 table=readxl::read_excel("~/Downloads/Keto MA.xlsx",sheet = "Library Prep")
 colnames(table)=table[1,]
